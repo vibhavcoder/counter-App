@@ -1,0 +1,44 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.couterapp {
+  border: none;
+  width: 400px;
+  padding: 12px;
+  box-shadow: 0 0 5px rgba(10, 7, 7, 0.1);
+}
+h1 {
+  font-size: 42px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+button {
+  padding: 8px;
+  margin-left: 12px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+}
+
+#counter-box {
+  border: none;
+  padding: 12px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 4px;
+}
+.reset {
+  margin-left: 36%;
+  margin-top: 12px;
+}
+
+button:hover {
+  background-color: blanchedalmond;
+}
